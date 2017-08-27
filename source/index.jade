@@ -1,0 +1,36 @@
+doctype
+html(lang="en")
+    head
+        include partial/head/_meta_tags
+        include partial/head/_seo_tags 
+        include partial/head/_head_scripts.html    
+        include partial/head/_favicon.html
+        
+        include partial/head/_title
+
+        include partial/credit/_templated.html
+
+        include partial/schema/_organization.html 
+        include partial/schema/_services.html 
+        
+        include partial/metrics/_yandex.html 
+        
+        include partial/verification/_verification 
+
+
+    body
+        #wrapper
+            #main
+                .inner
+
+                    include partial/content/_header.html 
+
+                    include partial/content/_banner.html 
+
+                    include partial/content/_posts.html 
+
+                    include partial/content/_sidebar.html 
+
+                    include partial/content/_contact.html 
+        
+        include partial/content/_scripts.html 
